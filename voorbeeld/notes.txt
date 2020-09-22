@@ -4,3 +4,16 @@
     <i class="fas fa-th"></i>
     <i class="fas fa-font"></i> 
     <i class="fas fa-comment"></i>
+
+
+
+    <header>
+    <nav>
+        <ul>
+        <li><a href="https://www.google.nl/"> <i class="fab fa-google-plus-g"></i> </a></li>
+        <li><a href="https://twitter.com/?lang=nl"> <i class="fab fa-twitter"></i> </a></li>
+        <li><a href="https://nl-nl.facebook.com/"> <i class="fab fa-facebook-f"></i> </a></li>
+        <li><a href="https://www.bol.com/nl/"> <i class="fas fa-wifi"></i> </a></li>
+    </ul>
+    </nav>
+</header>
