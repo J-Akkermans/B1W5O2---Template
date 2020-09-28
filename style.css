@@ -71,12 +71,45 @@ header nav a:nth-of-type(1) {
 }
 
 /* CONTACT PAGE */
+
+.contentMainForm {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+
+.contentMainForm li {
+    display: inline-block;
+    padding: 25px;
+}
+
+.contentMainForm li a i {
+    color: rgba(255, 255, 255, 0.4);
+    display: block;
+    font-size: 25px;
+    padding: 10px;
+
+}
+
+.contentMainForm li a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+}
+
+
+
+
 form {
     width: 300px;
     height: 325px;
     background: grey;
     border-radius: 5px;
-    margin: 70px auto;
+    margin: 0px auto;
     padding: 25px;
 }
 
