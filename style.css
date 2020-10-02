@@ -1,9 +1,8 @@
 * {
     padding: 0;
     margin: 0;
-    color: white;
     font-family: 'Roboto', sans-serif;
-
+    color: white;
 }
 
 body {
@@ -31,9 +30,24 @@ header nav a:nth-of-type(1) {
     margin-right: 30px;
 }
 
+header nav div a{
+    float: left;
+    text-align: center;
+    padding: 14px 10px 10px 10px;
+    color: white;
+    background-color: grey;
+    margin-left: 30;
+    text-decoration: none;
+}
+
+
+
+header nav div a:nth-of-type(1) {
+    margin-left: 30px;
+    margin-right: 1px;
+}
 
 .contentMain {
-    display: inline-block;
     text-align: center;
     position: absolute;
     width: 100%;
@@ -62,83 +76,107 @@ header nav a:nth-of-type(1) {
     display: block;
 }
 
-.active {
+.active, .active i{
     color: white !important;
 }
 
-.active i {
-    color: white !important;
+
+
+
+
+/* Features page */
+
+.contentFeatures{
+    width: 100vh;
+    margin: 0 auto;
+    margin-top: 150px;
 }
 
-/* CONTACT PAGE */
+.contentList {
+    background-color: grey;
 
-.contentMainForm {
-    display: inline-block;
     text-align: center;
-    width: 100%;
+    padding: 10px;
+    border-radius: 30%;
+}
+
+.contentFeatures ul {
+    list-style: none;
+}
+
+
+/* Pages */
+/* Same as features */
+/* Portfolio */
+.row{
+    display: flex;
+    justify-content: space-around;;
     margin-top: 50px;
 }
 
-
-
-.contentMainForm li {
-    display: inline-block;
-    padding: 25px;
+.row img{
+    width: 250px;   
+    /* box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
 }
 
-.contentMainForm li a i {
-    color: rgba(255, 255, 255, 0.4);
-    display: block;
-    font-size: 25px;
-    padding: 10px;
-
-}
-
-.contentMainForm li a {
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-    text-transform: uppercase;
-    display: block;
-}
-
-
-
-
-form {
-    width: 300px;
-    height: 325px;
+.cardBG{
     background: grey;
-    border-radius: 5px;
-    margin: 0px auto;
-    padding: 25px;
+    padding-bottom: 25px;
+    border-radius: 5%;
 }
 
-button {
+.cardBG ul li{
+    list-style: none;
+}
+
+/* BLOG */
+
+
+.container{
+    margin-top: 100px;
+}
+
+
+.asideContainer{
+    display: inline-block;
+    background-color: grey;
+    padding: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
     
-    background-color: white;
-    border: none;
+}
+aside > input, textarea{
     color: grey;
+}
+
+aside > p {
+    color: white;
+}
+
+aside > button{
+    color: black;
     padding: 10px;
     border-radius: 5px;
 }
-hr{
-    margin-bottom: 20px;
-}
 
-label {
-    display: block;
-}
-
-textarea {
-    display: block;
-    margin-bottom: 10px;
-}
-
-input:nth-of-type(3){
+/* Only shown when blog post is actually uploaded */
+.blogContainer{
     background-color: white;
-    color: black;
-    border: none;
+    width: 25%;
+    vertical-align:top;
+    display: inline-block;
+    margin-left: 250px;
+    padding: 10px;
     border-radius: 5px;
-    padding: 5px;
-    
+    border: 2px grey solid;
+    border-radius: 20px;
 }
+
+.blogContainer div >  h3,p{
+    color: grey;
+}
+
+.dnone{
+    display: none;
+}
+

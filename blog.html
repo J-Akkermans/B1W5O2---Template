@@ -28,21 +28,31 @@
         </nav>
     </header>
 
-    <main>
-        <section>
-                <div class="contactContainer">
-                        <p>Vul hier je nieuwe blog post titel in</p>
-                        <input type="text" id="blogTitle">
-                        <p>Vul hier je blog tekst toe.</p>
-                        <textarea id="blogText"  placeholder=" <br> om een enter in je tekst te hebben." cols="30" rows="10"></textarea> <br>
-                        <button class="buttonSubmit" onclick="blogPostUpload()">Upload blog</button>
-                </div>
-        </section>
-    </main>
-    
-
-
-
+    <!-- Laad js -->
+    <div class="container">
+       
+        <div class="asideContainer">
+            <aside>
+                <p>Vul hier je nieuwe blog post titel in</p>
+                <input type="text" id="blogTitle">
+                <p>Vul hier je blog tekst toe.</p>
+                <textarea id="blogText"  placeholder=" <br> om een enter in je tekst te hebben." cols="30" rows="10"></textarea> <br>
+                <button class="buttonSubmit" onclick="blogPostUpload()">Upload blog</button>
+            </aside>
+        </div>
+        <div class="blogContainer dnone" id="containerBlog">
+            <div>
+                <h3 id="blogTitelPost">
+                    <!-- Based on input -->
+                    hsdasd
+                </h3>
+                <p id="blogTextPost">
+                    <!-- Based on input -->
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
